@@ -1,0 +1,64 @@
+.gql_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.gqlInterface {
+    width: 25vw;
+    padding: 1rem;
+    border-right: 1px solid grey;
+}
+
+.graphql_form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.graphql_form label {
+    color: #4DB33D;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.querySelect, .queryString {
+    /* height: 2rem; */
+    padding: 0 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    height: 2rem;
+}
+
+.projectedFields {
+    box-sizing: border-box;    
+    height: 10rem;
+    font-size: 1.2rem;
+    padding: 0 0.25rem;
+    margin-bottom: 1rem;
+}
+
+.submit {
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    background-color: #4DB33D;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.submit:hover {cursor: pointer;}
+
+.gql_results {
+    width: 40vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gql_results h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(194, 104, 41);
+}

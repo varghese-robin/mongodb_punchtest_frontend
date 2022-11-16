@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+.payments {
+    width: 75vw;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.product_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 2px solid lightgrey;
+}
+
+.product_title {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+
+.product_image {
+    width: 50%;
+    /* border: 1px solid green; */
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 0px rgba(255, 182, 193, 0.5);
+    margin-bottom: 1rem;
+}
+
+.product_price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(92, 92, 220);
+    letter-spacing: 0.2rem;
+}

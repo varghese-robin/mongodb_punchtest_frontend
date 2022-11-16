@@ -1,0 +1,82 @@
+.payment_form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    background-color: rgb(247, 250, 252);
+    margin-left: 1rem;
+}
+
+.payment_name,
+.payment_email,
+.payment_card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.payment_name>input,
+.payment_email>input,
+.payment_card>input {
+    margin-top: 0.5rem;
+    height: 0.75rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment_name>input:focus,
+.payment_email>input:focus,
+.payment_card>input:focus {
+    border: 1px solid blue;
+    outline: 3px solid lightblue;
+}
+
+.card_details {
+    display: flex;
+}
+
+.card_details_fields {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 0 1rem 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_details_fields > input {
+    margin-top: 0.5rem;
+    height: 0.75rem;
+    padding: 1rem;
+    font-size: 1rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.5rem;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card_details_fields>input:focus {
+    border: 1px solid blue;
+    outline: 3px solid lightblue;
+}
+
+.payment_confirm {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: rgba(84,51,255, 0.9);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.payment_confirm:hover {
+    cursor: pointer;
+}
+

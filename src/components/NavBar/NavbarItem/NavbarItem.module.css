@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+.navbar_item {
+    margin-left: 2rem;
+    text-decoration: none;
+    font-family: 'Secular One', sans-serif;
+    font-size: 1.5rem;
+}
+
+.navbar_item:hover {cursor: pointer;}

@@ -1,0 +1,19 @@
+.loading {
+    color: darkcyan;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.query_results_box {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+    width: 40vw; 
+    overflow-y: scroll;
+}
+
+.query_results_box li {
+    list-style: none;
+}
